@@ -27,6 +27,12 @@ js/bewertung_abgeben_ramazan.js: Nimmt die Bewertung des Benutzers entgegen und 
 bewertungAbgeben(sprache, kategorie, ratschlag, id): Nimmt die Bewertung des Benutzers entgegen.
 speichern(id, bewertung, sprache, kategorie, ratschlag): Speichert die Bewertung in der Datei bewertungen.txt.
 
+**🛠️ Erstellt mit**
+Dieses Projekt wurde mit Visual Studio Code in Vanilla JavaScript entwickelt, um eine schlanke und effiziente Konsolenanwendung zu gewährleisten.
+[![JavaScript](http://3con14.biz/code/_data/js/intro/js-logo.png)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+
+
+
 **📝 Installation und Ausführung**
 Befolgen Sie die folgenden Schritte, um das Projekt auszuführen:
 
