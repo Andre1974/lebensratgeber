@@ -5,10 +5,13 @@ BC-Projekt ist eine reine Konsolenanwendung, die es Benutzern ermöglicht, einfa
 Dieses Projekt wurde als kleine Teamarbeit nach Scrum mit den Tools Miro und Trello durchgeführt.
 
 **👥 Teammitglieder**
+
 Ramazan
 Cornelia Boolhaar
 
+
 **🛠️ Projektstruktur**
+
 Das Projekt hat die folgende Datei- und Ordnerstruktur:
 Wichtige Dateien und Funktionen
 
@@ -27,13 +30,15 @@ js/bewertung_abgeben_ramazan.js: Nimmt die Bewertung des Benutzers entgegen und 
 bewertungAbgeben(sprache, kategorie, ratschlag, id): Nimmt die Bewertung des Benutzers entgegen.
 speichern(id, bewertung, sprache, kategorie, ratschlag): Speichert die Bewertung in der Datei bewertungen.txt.
 
+
 **🛠️ Erstellt mit**
+
 Dieses Projekt wurde mit Visual Studio Code in Vanilla JavaScript entwickelt, um eine schlanke und effiziente Konsolenanwendung zu gewährleisten.
 <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" alt="JavaScript" width="50">
 
 
-
 **📝 Installation und Ausführung**
+
 Befolgen Sie die folgenden Schritte, um das Projekt auszuführen:
 
 *Projekt klonen:*
@@ -46,6 +51,7 @@ npm install
 *Starten Sie die Anwendung:*
 node main.js
 
+
 **🎨 Verwendung**
 
 Das Programm startet mit einer Sprachauswahl.
@@ -55,14 +61,18 @@ Es wird ein passendes ASCII-Bild zur Lebensweisheit angezeigt.
 Abschließend kann der Benutzer die Lebensweisheit mit 1-5 Sternen bewerten.
 Die Bewertungen werden gespeichert und stehen für weitere Analysen zur Verfügung.
 
+
 **📈 Roadmap**
+
 Erweiterung der Bewertungskategorien 📚
 Optimierung der Lebensweisheiten 📝
 Auswertung der Nutzerbewertungen zur Verbesserung der Inhalte 📊
 Einführung eines Freemium-Modells mit begrenzten kostenlosen und unbegrenzten Premium-Sprüchen ☕
 Tägliche Glückssprüche für eine Extraportion Motivation 🌟
 
+
 **✨ Mitwirken**
+
 Möchten Sie zum Projekt beitragen? Folgen Sie diesen Schritten:
 
 Forken Sie das Repository
@@ -71,8 +81,11 @@ Committen Sie Ihre Änderungen: git commit -m 'Funktion XY hinzugefügt'
 Pushen Sie Ihre Änderungen: git push origin feature-xy
 Erstellen Sie einen Pull Request
 
+
 **✉ Kontakt**
+
 📧 E-Mail: projekte@kingnetz.de
+
 
 📌 Projektverantwortlicher Andre1974
 
