@@ -33,8 +33,8 @@ speichern(id, bewertung, sprache, kategorie, ratschlag): Speichert die Bewertung
 
 **🛠️ Erstellt mit**
 
-Dieses Projekt wurde mit Visual Studio Code in Vanilla JavaScript entwickelt, um eine schlanke und effiziente Konsolenanwendung zu gewährleisten.
-<img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" alt="JavaScript" width="50">
+<img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" alt="JavaScript" width="50">Dieses Projekt wurde mit Visual Studio Code in Vanilla JavaScript entwickelt, um eine schlanke und effiziente Konsolenanwendung zu gewährleisten.
+
 
 
 **📝 Installation und Ausführung**
