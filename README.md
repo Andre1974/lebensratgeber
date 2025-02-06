@@ -30,6 +30,7 @@ speichern(id, bewertung, sprache, kategorie, ratschlag): Speichert die Bewertung
 **🛠️ Erstellt mit**
 Dieses Projekt wurde mit Visual Studio Code in Vanilla JavaScript entwickelt, um eine schlanke und effiziente Konsolenanwendung zu gewährleisten.
 [![JavaScript](http://3con14.biz/code/_data/js/intro/js-logo.png)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+<img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" alt="JavaScript" width="50">
 
 
 
