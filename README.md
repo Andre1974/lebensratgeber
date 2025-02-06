@@ -1,67 +1,104 @@
-# BC Projekt
+🌟 Projektbeschreibung
 
-## Projektbeschreibung
+BC-Projekt ist eine reine Konsolenanwendung, die es Benutzern ermöglicht, einfache Lebensweisheiten nach Kategorien auszugeben und zu bewerten. Die Anwendung unterstützt mehrere Sprachen und zeigt passende ASCII-Kunst zu den Weisheiten an. Benutzer können die Weisheiten mit 1-5 Sternen bewerten, und die Bewertungen werden zur weiteren Verarbeitung gespeichert.
 
-BC-Projekt ist eine Anwendung, die es Benutzern ermöglicht, Bewertungen abzugeben und diese zu analysieren. Die Anwendung bietet die Möglichkeit, Bewertungen in verschiedenen Sprachen und Kategorien abzugeben und visualisiert diese Bewertungen mit ASCII-Kunst.
+Dieses Projekt wurde als kleine Teamarbeit nach Scrum mit den Tools Miro und Trello durchgeführt.
 
-## Projektstruktur
+👥 Teammitglieder
+
+Ramazan
+
+Cornelia Boolhaar
+
+🛠️ Projektstruktur
 
 Das Projekt hat die folgende Datei- und Ordnerstruktur:
 
-#Für eine Webanwendung oder ein Programm mit einer UX/UI-Oberfläche ist Asynchronität praktisch unerlässlich, um eine gute Skalierbarkeit und Benutzerfreundlichkeit zu gewährleisten.
+Wichtige Dateien und Funktionen
 
-### Wichtige Dateien und Funktionen
+main.js : Die Hauptdatei der Anwendung, die alle anderen Skripte zusammenführt.
 
+neustart_abfragen(): Fragt den Benutzer, ob er das Programm neu starten möchte.
 
--  **main.js** : Die Hauptdatei der Anwendung, die alle anderen Skripte zusammenführt. 
-- `neustart_abfragen()`: Fragt den Benutzer, ob er das Programm neu starten möchte. 
-- `main()`: Die Hauptfunktion der Anwendung. 
+main(): Die Hauptfunktion der Anwendung.
 
--  **js/auswertung.js**: Lädt und analysiert Bewertungen.  
-- `ladeBewertungen()`:`bewertungen.txt`Lädt Bewertungen aus der Datei. 
-  - `berechneAuswertung()`: Analysiert die Bewertungen.
+js/auswertung.js: Lädt und analysiert Bewertungen.
 
-- **js/sprachauswahl_ramazan.js**: Ermöglicht die Auswahl der Benutzersprache.
-  - `sprache_waehlen()`: Ermöglicht dem Benutzer die Auswahl der Sprache.
+ladeBewertungen(): Lädt Bewertungen aus der Datei bewertungen.txt.
 
-- **js/inhalt_deutsch_conny.js** ve **js/inhalt_englisch_semm.js**: Zeigt ASCII-Kunst nach Kategorien.
-- `bildchen(kategorie)`: Zeigt ASCII-Kunst für eine bestimmte Kategorie an. 
-- `kategorie_waehlen()`: Ermöglicht dem Benutzer die Auswahl einer Kategorie. 
+berechneAuswertung(): Analysiert die Bewertungen.
 
--  **js/bewertung_abgeben_ramazan.js**: Nimmt die Bewertung des Benutzers entgegen und speichert sie.  
-- `bewertungAbgeben(sprache, kategorie, ratschlag, id)`: Nimmt die Bewertung des Benutzers entgegen. 
-- `speichern(id, bewertung, sprache, kategorie, ratschlag)`: Speichert die Bewertung in der Datei.`bewertungen.txt` 
+js/sprachauswahl_ramazan.js: Ermöglicht die Auswahl der Benutzersprache.
 
-## Installation und Ausführung
+sprache_waehlen(): Ermöglicht dem Benutzer die Auswahl der Sprache.
+
+js/inhalt_deutsch_conny.js & js/inhalt_englisch_semm.js: Zeigt ASCII-Kunst nach Kategorien.
+
+bildchen(kategorie): Zeigt ASCII-Kunst für eine bestimmte Kategorie an.
+
+kategorie_waehlen(): Ermöglicht dem Benutzer die Auswahl einer Kategorie.
+
+js/bewertung_abgeben_ramazan.js: Nimmt die Bewertung des Benutzers entgegen und speichert sie.
+
+bewertungAbgeben(sprache, kategorie, ratschlag, id): Nimmt die Bewertung des Benutzers entgegen.
+
+speichern(id, bewertung, sprache, kategorie, ratschlag): Speichert die Bewertung in der Datei bewertungen.txt.
+
+📝 Installation und Ausführung
 
 Befolgen Sie die folgenden Schritte, um das Projekt auszuführen:
 
-1. Projekt klonen: 
- 
+Projekt klonen:
 
-    ```sh
-    git clone <repository-url>
-    cd bc_projekt
-    ```
+git clone git@github.com:Andre1974/lebensratgeber.git
+cd lebensratgeber
 
-2. Erforderliche Abhängigkeiten installieren: 
- 
+Erforderliche Abhängigkeiten installieren:
 
-    ```sh
-    npm install
-    ```
+npm install
 
-3. Starten Sie die Anwendung: 
- 
+Starten Sie die Anwendung:
 
-    ```sh
-    node main.js
-    ```
+node main.js
 
-## Beitrag leisten
+🎨 Verwendung
 
-Wenn Sie beitragen möchten, senden Sie bitte eine Pull-Request oder öffnen Sie ein Issue.
+Das Programm startet mit einer Sprachauswahl.
 
-## Lizenz
+Danach wählt der Benutzer eine Kategorie für die Lebensweisheiten (z. B. "Ostern").
 
-Dieses Projekt ist unter der MIT-Lizenz lizenziert. Weitere Informationen finden Sie in der Datei.`LICENSE`
+Das Programm gibt die Lebensweisheit der gewählten Kategorie aus.
+
+Es wird ein passendes ASCII-Bild zur Lebensweisheit angezeigt.
+
+Abschließend kann der Benutzer die Lebensweisheit mit 1-5 Sternen bewerten.
+
+Die Bewertungen werden gespeichert und stehen für weitere Analysen zur Verfügung.
+
+📈 Roadmap
+
+
+
+✨ Mitwirken
+
+Möchten Sie zum Projekt beitragen? Folgen Sie diesen Schritten:
+
+Forken Sie das Repository
+
+Erstellen Sie einen neuen Branch: git checkout -b feature-xy
+
+Committen Sie Ihre Änderungen: git commit -m 'Funktion XY hinzugefügt'
+
+Pushen Sie Ihre Änderungen: git push origin feature-xy
+
+Erstellen Sie einen Pull Request
+
+✉ Kontakt
+
+📧 E-Mail: projekte@kingnetz.de
+
+📌 Projektverantwortlicher NameGitHub
+
+🛡️ Lizenz
+
+Dieses Projekt ist unter der MIT-Lizenz lizenziert.
