@@ -3,7 +3,7 @@
 
 //! Übernahme der Werte aus main 
 //! Abfrage Bewertung des Users
-//! Speichern der Werte in Textdatei
+//! Speichern der Werte in Textdatei bewertungen.txt
 
 
 

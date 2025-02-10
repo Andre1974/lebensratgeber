@@ -2,7 +2,7 @@
 // Die Main JS dient der zusammenführung/ Verknüpfung der Scripte und steuert die logische Abfolge
 // Asynchron weil später viele Nutzer zeitgleich
 // Autor Andre 
-// Version v0.0.6
+// Version v0.0.1
 
 const { animateEarth } = require("./js/animation.js"); // Import für die Animation hinzufügen
 const { sprache_waehlen } = require("./js/sprachauswahl_ramazan.js");
